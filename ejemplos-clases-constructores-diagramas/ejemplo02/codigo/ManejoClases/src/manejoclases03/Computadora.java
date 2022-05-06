@@ -10,6 +10,19 @@ public class Computadora {
     private double memoria;
     
     // métodos establecer para cada atributo
+    public Computadora(double m) {
+        memoria = m;
+    }
+    
+    public Computadora(String tipo) {
+        tipoProcesador = tipo;
+    }
+    
+    public Computadora(String tipo, double m) {
+        tipoProcesador = tipo;
+        memoria = m;
+    }
+    
     public void establecerTipoProcesador(String n){
         tipoProcesador = n;
     }
