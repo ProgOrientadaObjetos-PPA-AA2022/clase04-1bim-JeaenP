@@ -61,5 +61,10 @@ public class FacturaTelefonica {
         return valorFactura;
     }
     
+    public String toString() {
+        String cadena = obtenerNumeroTelefono();
+        return cadena;
+    }
+    
     
 }

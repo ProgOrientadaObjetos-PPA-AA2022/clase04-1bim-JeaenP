@@ -39,4 +39,11 @@ public class Computadora {
         return memoria;
     }
     
+    public String toString() {
+        String cadena = String.format("Procesador: %s\n"
+                + "Memoria: %.2f GB\n", 
+                obtenerTipoProcesador(),
+                obtenerMemoria());
+        return cadena;
+    }
 }

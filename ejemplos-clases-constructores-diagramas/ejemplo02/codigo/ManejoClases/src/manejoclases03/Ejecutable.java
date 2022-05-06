@@ -17,7 +17,7 @@ public class Ejecutable {
         
         // Se asigna valores particulares al objeto
         // a través de los métodos establecer
-    
+        
         
         // Se presenta valores en pantalla, rescatando los valores
         // que se necesita a través de los métodos obtener del
